@@ -51,7 +51,24 @@ The ATMega809 can drive up to 15mA per pin in 5V0 mode, and 7.5mA in 3V3.
 Absolute maximum rated drive per pin is +/-40mA. Absolute maximum VDD pin
 input is 200mA.
 
-## Isolated I2C Bus
+## Clock speed configuration
+
+The MCU boots with `CLK_MAIN` driven by the `OSC20M` oscillator which is in
+either 20MHz or 16MHz mode (check `OSCFUSE` bits to see how it is programmed),
+with a `CLKDIV` of 6.
+
+During boot, Arduino will disable the CLKDIV so your sketch is running at
+the full 20 or 16MHz.
+
+If operating in low-voltage 3V3 mode, the maximum safe clock speed is 10MHz.  So
+a `CLKDIV` of at least 2 must be applied. If using an Arduino sketch on an
+Arduino core compiled with default settings, the Arduino `init()` function will
+fully unleash the clock divider for at least a short time before your `setup()`
+method has time to pull it back to a divider of 2, which may cause boot
+instability. Compiling the core with `-DFCPU=10000000` will tell Arduino to
+unthrottle the clock only as far as a divider of 2.
+
+## Level-shifting I2C Bus
 
 The breakout board offers I2C on the `SDA`/`SCL` pins. A dual-transistor buffer
 isolates the pull-up voltages seen on these pins from those seen by the MCU.
@@ -62,4 +79,10 @@ You must supply power to the `VBUS` pin in order to activate the buffer and
 communicate over I2C. Otherwise the external I2C bus will be fully isolated from
 the MCU I2C bus. If the MCU and the external circuit are operating at the same
 voltage you can connect `VBUS` to `VDD`.
+
+You must apply external pull-up resistors to `SDA` and `SCL` to use I2C.
+Typical resistor value is 4K7. The bus capacitance added by the breakout
+board is typically 36 pF (per [PJA3438
+datasheet](https://www.panjit.com.tw/upload/datasheet/PJA3438-AU.pdf))
+[plus capacitance added by header pin, flying leads, etc].
 
