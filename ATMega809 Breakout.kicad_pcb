@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 89)
-    (tracks 680)
+    (tracks 682)
     (zones 0)
     (modules 51)
     (nets 66)
@@ -2590,8 +2590,6 @@
   (segment (start 105.134 50.7475) (end 105.134 53.108) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 105.134 45.7725) (end 105.134 43.583) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 102.559 44.885) (end 102.559 43.631) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 102.559 47.11) (end 101.212 47.11) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 102.559 49.81) (end 101.118 49.81) (width 0.25) (layer F.Cu) (net 1))
   (via (at 135.509 57.15) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 6263EB64))
   (segment (start 129.921 48.387) (end 130.365 47.943) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 166.37 68.453) (end 166.37 70.739) (width 0.25) (layer F.Cu) (net 1))
@@ -2619,6 +2617,10 @@
   (segment (start 172.212 62.167) (end 172.212 61.214) (width 0.25) (layer F.Cu) (net 1))
   (via (at 173.736 60.452) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 6265084E))
   (via (at 166.37 66.802) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 62650F36))
+  (segment (start 102.559 51.635) (end 102.559 49.968) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 102.559 47.11) (end 102.496 47.11) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 102.496 47.11) (end 102.616 46.99) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 102.616 46.99) (end 102.616 44.577) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 118.696 52.084) (end 115.824 49.212) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 119.659 52.084) (end 118.696 52.084) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 113.665 35.56) (end 113.538 35.56) (width 0.5) (layer F.Cu) (net 2))
@@ -3958,26 +3960,6 @@
         (xy 126.710482 42.472188) (xy 126.586 42.459928) (xy 126.27025 42.463) (xy 126.1115 42.62175) (xy 126.1105 42.62175)
         (xy 125.95175 42.463) (xy 125.636 42.459928) (xy 125.532072 42.470164) (xy 125.532072 41.835507) (xy 125.715579 41.652)
         (xy 127.572199 41.652)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 101.015 49.92825) (xy 101.015 49.810502) (xy 101.132748 49.810502)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 101.132748 49.809498) (xy 101.015 49.809498) (xy 101.015 49.69175)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 101.015 47.22825) (xy 101.015 47.110502) (xy 101.132748 47.110502)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 101.132748 47.109498) (xy 101.015 47.109498) (xy 101.015 46.99175)
       )
     )
   )
