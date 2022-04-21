@@ -10,6 +10,7 @@ Here are a few manufacturing notes:
 
 * I have added 3 board fiducials and 2 local fiducials for U2. If you do not need these I can remove them for you, please let me know.
 
+* Please note slightly rounded corners for edge milling.
 
 If you have any questions, or there are difficulties to address please send me an email.
 

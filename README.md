@@ -41,15 +41,29 @@ The device is powered through an NCP1117LP adjustable 1A linear regulator.
 This is configured for 5V0 operation by default. Closing the `3V3_SEL` jumper will
 reconfigure it for 3V3. A task best performed with the device unpowered.
 
-* If powering the device for 5V0, you must supply 6.5V or greater on VIN
-* If powering the device for 3V3, you must supply 5.5V or greater on VIN
+* If powering the device for 5V0, you must supply 6.5V or greater on `VIN`
+* If powering the device for 3V3, you must supply 5.0V or greater on `VIN`
+* `VIN` absolute maximum rating is 16V. For safe thermal operation, target
+  `VDD + 3V` or less.
+
+### Power limits and thermal capacity
 
 You can draw power from the regulator's output `VDD` on pin 15. The total
 power available (including MCU power budget) is 1A.
 
 The ATMega809 can drive up to 15mA per pin in 5V0 mode, and 7.5mA in 3V3.
-Absolute maximum rated drive per pin is +/-40mA. Absolute maximum VDD pin
+Absolute maximum rated drive per pin is +/-40mA. MCU absolute maximum VDD pin
 input is 200mA.
+
+The main limit to current is based on the LDO's thermal regulation capability.
+LDO power dissipation in this implementation has an absolute maximum 825 mW. LDO
+power dissipated is given by `(VIN - VDD - 0.35V)(IDD)`. Keeping `VIN` as close
+to the 6.5V or 5.0V supply requirement gives more headroom for more current.
+
+If VDD = 5V0 and VIN = 6V5, maximum current is 715 mA.
+
+If VDD = 3V3 and VIN = 5V0, maximum current is 610 mA.
+
 
 ## Clock speed configuration
 

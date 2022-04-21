@@ -127,10 +127,10 @@ UPDI
 Text Label 9150 5600 0    50   ~ 0
 RESET_L
 $Comp
-L Device:R_Small R12
+L Device:R_Small R11
 U 1 1 625C66FF
 P 10100 5400
-F 0 "R12" H 10159 5446 50  0000 L CNN
+F 0 "R11" H 10159 5446 50  0000 L CNN
 F 1 "100K" H 10159 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10100 5400 50  0001 C CNN
 F 3 "~" H 10100 5400 50  0001 C CNN
@@ -157,10 +157,10 @@ VREF
 Wire Wire Line
 	10100 5600 10100 5500
 $Comp
-L Device:C_Small C6
+L Device:C_Small C5
 U 1 1 625CAB46
 P 9975 3450
-F 0 "C6" H 9883 3404 50  0000 R CNN
+F 0 "C5" H 9883 3404 50  0000 R CNN
 F 1 "100n" H 9883 3495 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9975 3450 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 9975 3450 50  0001 C CNN
@@ -172,10 +172,10 @@ $EndComp
 Wire Wire Line
 	9975 3550 9975 3650
 $Comp
-L power:GND #PWR024
+L power:GND #PWR021
 U 1 1 625CB89C
 P 9975 3650
-F 0 "#PWR024" H 9975 3400 50  0001 C CNN
+F 0 "#PWR021" H 9975 3400 50  0001 C CNN
 F 1 "GND" H 9980 3477 50  0000 C CNN
 F 2 "" H 9975 3650 50  0001 C CNN
 F 3 "" H 9975 3650 50  0001 C CNN
@@ -185,10 +185,10 @@ $EndComp
 Wire Wire Line
 	10350 3550 10350 3650
 $Comp
-L power:GND #PWR020
+L power:GND #PWR024
 U 1 1 625CD2EE
 P 10350 3650
-F 0 "#PWR020" H 10350 3400 50  0001 C CNN
+F 0 "#PWR024" H 10350 3400 50  0001 C CNN
 F 1 "GND" H 10355 3477 50  0000 C CNN
 F 2 "" H 10350 3650 50  0001 C CNN
 F 3 "" H 10350 3650 50  0001 C CNN
@@ -198,10 +198,10 @@ $EndComp
 Wire Wire Line
 	10350 3300 10350 3350
 $Comp
-L Device:C_Small C8
+L Device:C_Small C9
 U 1 1 625D1453
 P 10800 3450
-F 0 "C8" H 10708 3404 50  0000 R CNN
+F 0 "C9" H 10708 3404 50  0000 R CNN
 F 1 "100n" H 10708 3495 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10800 3450 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 10800 3450 50  0001 C CNN
@@ -248,10 +248,10 @@ F 3 "" H 9450 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C7
+L Device:C_Small C4
 U 1 1 625D31B5
 P 9950 4450
-F 0 "C7" H 9858 4404 50  0000 R CNN
+F 0 "C4" H 9858 4404 50  0000 R CNN
 F 1 "100n" H 9858 4495 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9950 4450 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 9950 4450 50  0001 C CNN
@@ -276,10 +276,10 @@ $EndComp
 Wire Wire Line
 	9950 4550 9950 4650
 $Comp
-L power:GND #PWR021
+L power:GND #PWR020
 U 1 1 625D3369
 P 9950 4650
-F 0 "#PWR021" H 9950 4400 50  0001 C CNN
+F 0 "#PWR020" H 9950 4400 50  0001 C CNN
 F 1 "GND" H 9955 4477 50  0000 C CNN
 F 2 "" H 9950 4650 50  0001 C CNN
 F 3 "" H 9950 4650 50  0001 C CNN
@@ -293,10 +293,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 4300 10350 4300
 $Comp
-L Device:C_Small C5
+L Device:C_Small C6
 U 1 1 625D7A5C
 P 10100 5850
-F 0 "C5" H 10008 5804 50  0000 R CNN
+F 0 "C6" H 10008 5804 50  0000 R CNN
 F 1 "100n" H 10008 5895 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10100 5850 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 10100 5850 50  0001 C CNN
@@ -371,10 +371,10 @@ F 5 "Lite-On" H 5025 7500 50  0001 C CNN "MANUFACTURER"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R11
+L Device:R_Small R10
 U 1 1 625DEC1D
 P 4675 7150
-F 0 "R11" H 4734 7196 50  0000 L CNN
+F 0 "R10" H 4734 7196 50  0000 L CNN
 F 1 "470R" H 4734 7105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4675 7150 50  0001 C CNN
 F 3 "~" H 4675 7150 50  0001 C CNN
@@ -423,7 +423,7 @@ F 3 "" H 4450 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1575 950  0    50   ~ 0
-Selectable power regulator\n3V3 or 5V0 operation\nFor 3V3, VIN >= 5.5V\nFor 5V0, VIN >= 6.5V\nShort jumper to select 3V3 regulator mode\n
+Selectable power regulator\n3V3 or 5V0 operation\nFor 3V3, VIN >= 5.0V\nFor 5V0, VIN >= 6.5V\nShort jumper to select 3V3 regulator mode\n
 $Comp
 L power:GND #PWR011
 U 1 1 62613B26
@@ -436,10 +436,10 @@ F 3 "" H 3850 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C2
+L Device:CP1_Small C3
 U 1 1 6261B416
 P 3850 1550
-F 0 "C2" H 3941 1596 50  0000 L CNN
+F 0 "C3" H 3941 1596 50  0000 L CNN
 F 1 "10u" H 3941 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3850 1550 50  0001 C CNN
 F 3 "" H 3850 1550 50  0001 C CNN
@@ -451,10 +451,10 @@ $EndComp
 Text Notes 4025 2475 0    50   ~ 0
 Linear regulator capacitors:\n20mOhm < ESR < 20 Ohm\nceramic or tantalum\n\nVIN cap voltage tolerance >= 10V
 $Comp
-L Device:CP1_Small C4
+L Device:CP1_Small C8
 U 1 1 6261D02F
 P 10350 4450
-F 0 "C4" H 10441 4496 50  0000 L CNN
+F 0 "C8" H 10441 4496 50  0000 L CNN
 F 1 "10u" H 10441 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10350 4450 50  0001 C CNN
 F 3 "" H 10350 4450 50  0001 C CNN
@@ -464,10 +464,10 @@ F 5 "Samsung Electro-Mechanics" H 10350 4450 50  0001 C CNN "MANUFACTURER"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C3
+L Device:CP1_Small C7
 U 1 1 6261D7AB
 P 10350 3450
-F 0 "C3" H 10441 3496 50  0000 L CNN
+F 0 "C7" H 10441 3496 50  0000 L CNN
 F 1 "10u" H 10441 3405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10350 3450 50  0001 C CNN
 F 3 "" H 10350 3450 50  0001 C CNN
@@ -518,10 +518,10 @@ $EndComp
 Text Notes 575  2850 0    50   ~ 0
 Micro-USB Power input
 $Comp
-L power:GND #PWR03
+L power:GND #PWR02
 U 1 1 6263D89C
 P 850 4050
-F 0 "#PWR03" H 850 3800 50  0001 C CNN
+F 0 "#PWR02" H 850 3800 50  0001 C CNN
 F 1 "GND" V 855 3922 50  0000 R CNN
 F 2 "" H 850 4050 50  0001 C CNN
 F 3 "" H 850 4050 50  0001 C CNN
@@ -537,10 +537,10 @@ U 1 1 6263BB2C
 P 900 3425
 F 0 "J1" H 957 3892 50  0000 C CNN
 F 1 "USB_B_Micro" H 957 3801 50  0000 C CNN
-F 2 "aaron-imported-parts:USB_Micro-B_AdamTech-MCR-B-S-RA-SMT-CS5A-NF" H 1050 3375 50  0001 C CNN
-F 3 "https://app.adam-tech.com/products/download/data_sheet/195343/mcr-b-s-ra-smt-cs5a-nf-t-r-data-sheet.pdf" H 1050 3375 50  0001 C CNN
-F 4 "MCR-B-S-RA-SMT-CS5A-NF-T/R" H 900 3425 50  0001 C CNN "MPN"
-F 5 "Adam Tech" H 900 3425 50  0001 C CNN "MANUFACTURER"
+F 2 "aaron-imported-parts:USB_Micro-B_Molex_47346-1001" H 1050 3375 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/473461001_sd.pdf" H 1050 3375 50  0001 C CNN
+F 4 "0473461001" H 900 3425 50  0001 C CNN "MPN"
+F 5 "Molex" H 900 3425 50  0001 C CNN "MANUFACTURER"
 	1    900  3425
 	1    0    0    -1  
 $EndComp
@@ -596,18 +596,18 @@ F 5 "Toshiba Semiconductor" H 4100 1350 50  0001 C CNN "MANUFACTURER"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Aaron-Symbols:VIN #PWR02
+L Aaron-Symbols:VIN #PWR03
 U 1 1 626A217D
 P 925 1125
-F 0 "#PWR02" H 925 975 50  0001 C CNN
+F 0 "#PWR03" H 925 975 50  0001 C CNN
 F 1 "VIN" H 940 1298 50  0000 C CNN
 F 2 "" H 925 1125 50  0001 C CNN
 F 3 "" H 925 1125 50  0001 C CNN
 	1    925  1125
 	1    0    0    -1  
 $EndComp
-Text Notes 7250 6850 0    50   ~ 0
-GREMBLDUINO Mega809
+Text Notes 7200 7075 0    50   ~ 0
+ATMega809 breakout board\n\nAaron Kimball / akimball83@gmail.com
 $Comp
 L Aaron-Symbols:PJA3438-AU Q1
 U 1 1 626AB756
@@ -712,10 +712,10 @@ SDA_MCU
 Text Label 3250 6075 0    50   ~ 0
 SCL_MCU
 $Comp
-L Device:R_Small R6
+L Device:R_Small R5
 U 1 1 6272337F
 P 2850 5475
-F 0 "R6" H 2909 5521 50  0000 L CNN
+F 0 "R5" H 2909 5521 50  0000 L CNN
 F 1 "4K7" H 2909 5430 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2850 5475 50  0001 C CNN
 F 3 "~" H 2850 5475 50  0001 C CNN
@@ -725,10 +725,10 @@ F 5 "YAEGO" H 2850 5475 50  0001 C CNN "MANUFACTURER"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R7
+L Device:R_Small R6
 U 1 1 62723843
 P 3150 5475
-F 0 "R7" H 3209 5521 50  0000 L CNN
+F 0 "R6" H 3209 5521 50  0000 L CNN
 F 1 "4K7" H 3209 5430 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 5475 50  0001 C CNN
 F 3 "~" H 3150 5475 50  0001 C CNN
@@ -780,7 +780,7 @@ U 1 1 6278A73C
 P 2600 1350
 F 0 "U1" H 2600 1592 50  0000 C CNN
 F 1 "NCP1117-ADJ_SOT223" H 2600 1501 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2600 1550 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 2600 1550 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/ncp1117lp-d.pdf" H 2700 1100 50  0001 C CNN
 F 4 "NCP1117LPSTADT3G" H 2600 1350 50  0001 C CNN "MPN"
 F 5 "onsemi" H 2600 1350 50  0001 C CNN "MANUFACTURER"
@@ -790,14 +790,14 @@ $EndComp
 Wire Wire Line
 	2150 1450 2150 1350
 $Comp
-L Device:R_Small R8
+L Device:R_Small R7
 U 1 1 627C8FC4
 P 3350 1550
-F 0 "R8" H 3409 1596 50  0000 L CNN
+F 0 "R7" H 3409 1596 50  0000 L CNN
 F 1 "120R" H 3409 1505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3350 1550 50  0001 C CNN
 F 3 "~" H 3350 1550 50  0001 C CNN
-F 4 "" H 3350 1550 50  0001 C CNN "MPN"
+F 4 "RC0603FR-07120RL" H 3350 1550 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 3350 1550 50  0001 C CNN "MANUFACTURER"
 	1    3350 1550
 	1    0    0    -1  
@@ -810,14 +810,14 @@ Connection ~ 3350 1350
 Wire Wire Line
 	3350 1650 3350 1700
 $Comp
-L Device:R_Small R9
+L Device:R_Small R8
 U 1 1 627D4F19
 P 3350 1900
-F 0 "R9" H 3409 1946 50  0000 L CNN
+F 0 "R8" H 3409 1946 50  0000 L CNN
 F 1 "390R" H 3409 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3350 1900 50  0001 C CNN
 F 3 "~" H 3350 1900 50  0001 C CNN
-F 4 "" H 3350 1900 50  0001 C CNN "MPN"
+F 4 "RC0603FR-07390RL" H 3350 1900 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 3350 1900 50  0001 C CNN "MANUFACTURER"
 	1    3350 1900
 	1    0    0    -1  
@@ -834,15 +834,15 @@ Wire Wire Line
 Wire Wire Line
 	2150 1700 2150 1650
 $Comp
-L Device:R_Small R5
+L Device:R_Small R4
 U 1 1 627FAB16
 P 2850 1900
-F 0 "R5" H 2909 1946 50  0000 L CNN
+F 0 "R4" H 2909 1946 50  0000 L CNN
 F 1 "560R" H 2909 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2850 1900 50  0001 C CNN
 F 3 "" H 2850 1900 50  0001 C CNN
-F 4 "" H 2850 1900 50  0001 C CNN "MPN"
-F 5 "" H 2850 1900 50  0001 C CNN "MANUFACTURER"
+F 4 "RC0603FR-07560RL" H 2850 1900 50  0001 C CNN "MPN"
+F 5 "YAEGO" H 2850 1900 50  0001 C CNN "MANUFACTURER"
 	1    2850 1900
 	1    0    0    -1  
 $EndComp
@@ -875,10 +875,10 @@ VREG_OUT
 Text Label 4300 1350 0    50   ~ 0
 VDD
 $Comp
-L Device:R_Small R3
+L Device:R_Small R2
 U 1 1 6281E73C
 P 1950 2400
-F 0 "R3" H 1892 2354 50  0000 R CNN
+F 0 "R2" H 1892 2354 50  0000 R CNN
 F 1 "100K" H 1892 2445 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1950 2400 50  0001 C CNN
 F 3 "~" H 1950 2400 50  0001 C CNN
@@ -913,10 +913,10 @@ Connection ~ 2850 2550
 Wire Wire Line
 	4450 1350 4450 1150
 $Comp
-L Device:R_Small R4
+L Device:R_Small R3
 U 1 1 62884D4F
 P 2250 2250
-F 0 "R4" V 2054 2250 50  0000 C CNN
+F 0 "R3" V 2054 2250 50  0000 C CNN
 F 1 "1K0" V 2145 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2250 2250 50  0001 C CNN
 F 3 "~" H 2250 2250 50  0001 C CNN
@@ -998,10 +998,10 @@ F 3 "~" H 700 7550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R2
+L Device:R_Small R1
 U 1 1 628B7108
 P 1950 1550
-F 0 "R2" H 1892 1504 50  0000 R CNN
+F 0 "R1" H 1892 1504 50  0000 R CNN
 F 1 "100K" H 1892 1595 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1950 1550 50  0001 C CNN
 F 3 "~" H 1950 1550 50  0001 C CNN
@@ -1341,8 +1341,6 @@ Wire Wire Line
 	3700 5675 3700 5400
 Wire Wire Line
 	3750 5500 3750 6075
-Text Notes 4725 1850 0    50   ~ 0
-TODO: \nR11 -> 120\nR12 -> 390\nR5 -> 560\nAdd C_ADJ = 100nF\n2x-check R measurements
 Text Label 2600 1700 0    50   ~ 0
 LINADJ
 Wire Wire Line
@@ -1350,10 +1348,10 @@ Wire Wire Line
 Wire Wire Line
 	4425 7350 4425 7575
 $Comp
-L Device:R_Small R10
+L Device:R_Small R9
 U 1 1 6267DD30
 P 3700 7025
-F 0 "R10" H 3759 7071 50  0000 L CNN
+F 0 "R9" H 3759 7071 50  0000 L CNN
 F 1 "470R" H 3759 6980 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 7025 50  0001 C CNN
 F 3 "~" H 3700 7025 50  0001 C CNN
@@ -1507,10 +1505,10 @@ GND
 Wire Wire Line
 	7525 2175 7525 2575
 $Comp
-L Device:C_Small C9
+L Device:C_Small C2
 U 1 1 62715A46
 P 3650 2100
-F 0 "C9" H 3558 2054 50  0000 R CNN
+F 0 "C2" H 3558 2054 50  0000 R CNN
 F 1 "100n" H 3558 2145 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 2100 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 3650 2100 50  0001 C CNN
@@ -1554,4 +1552,63 @@ Wire Wire Line
 Connection ~ 850  3925
 Wire Wire Line
 	850  3925 900  3925
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 62B76197
+P 2100 6975
+F 0 "FID1" H 2185 7021 50  0000 L CNN
+F 1 "Fiducial" H 2185 6930 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2100 6975 50  0001 C CNN
+F 3 "~" H 2100 6975 50  0001 C CNN
+	1    2100 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 62B76307
+P 2100 7150
+F 0 "FID2" H 2185 7196 50  0000 L CNN
+F 1 "Fiducial" H 2185 7105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2100 7150 50  0001 C CNN
+F 3 "~" H 2100 7150 50  0001 C CNN
+	1    2100 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 62B7676C
+P 2100 7325
+F 0 "FID3" H 2185 7371 50  0000 L CNN
+F 1 "Fiducial" H 2185 7280 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2100 7325 50  0001 C CNN
+F 3 "~" H 2100 7325 50  0001 C CNN
+	1    2100 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 62B76A17
+P 2100 7500
+F 0 "FID4" H 2185 7546 50  0000 L CNN
+F 1 "Fiducial" H 2185 7455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2100 7500 50  0001 C CNN
+F 3 "~" H 2100 7500 50  0001 C CNN
+	1    2100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 62B76CF8
+P 2100 7675
+F 0 "FID5" H 2185 7721 50  0000 L CNN
+F 1 "Fiducial" H 2185 7630 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2100 7675 50  0001 C CNN
+F 3 "~" H 2100 7675 50  0001 C CNN
+	1    2100 7675
+	1    0    0    -1  
+$EndComp
+Text Notes 10575 7625 0    50   ~ 0
+1.0
+Text Notes 8150 7625 0    50   ~ 0
+4/22/2022
 $EndSCHEMATC
