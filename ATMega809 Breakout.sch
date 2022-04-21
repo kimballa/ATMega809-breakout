@@ -120,11 +120,9 @@ F 3 "" H 10650 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10650 1500 10650 1600
-Wire Wire Line
-	9050 5800 9500 5800
-Text Label 9300 5800 0    50   ~ 0
+Text Label 9400 5800 2    50   ~ 0
 UPDI
-Text Label 9150 5600 0    50   ~ 0
+Text Label 9400 5600 2    50   ~ 0
 RESET_L
 $Comp
 L Device:R_Small R11
@@ -339,12 +337,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR029
 U 1 1 625DACF2
-P 10850 5950
-F 0 "#PWR029" H 10850 5700 50  0001 C CNN
-F 1 "GND" H 10855 5777 50  0000 C CNN
-F 2 "" H 10850 5950 50  0001 C CNN
-F 3 "" H 10850 5950 50  0001 C CNN
-	1    10850 5950
+P 10850 6050
+F 0 "#PWR029" H 10850 5800 50  0001 C CNN
+F 1 "GND" H 10855 5877 50  0000 C CNN
+F 2 "" H 10850 6050 50  0001 C CNN
+F 3 "" H 10850 6050 50  0001 C CNN
+	1    10850 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -423,7 +421,7 @@ F 3 "" H 4450 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1575 950  0    50   ~ 0
-Selectable power regulator\n3V3 or 5V0 operation\nFor 3V3, VIN >= 5.0V\nFor 5V0, VIN >= 6.5V\nShort jumper to select 3V3 regulator mode\n
+Configurable Power Linear Regulator\n3V3 or 5V0 operation\nFor 3V3, VIN >= 5.0V\nFor 5V0, VIN >= 6.5V\nShort jumper to select 3V3 regulator mode\n
 $Comp
 L power:GND #PWR011
 U 1 1 62613B26
@@ -764,7 +762,7 @@ Wire Wire Line
 	3150 5575 3150 6075
 Connection ~ 3150 6075
 Text Notes 1750 4975 0    50   ~ 0
-Client-side voltage level must be\napplied to VBUS to activate SDA/SCL.\nClient provides pull-up R's.
+Client-side voltage level must be\napplied to VBUS to activate SDA/SCL.\nClient provides pull-up R's for left side.
 Wire Wire Line
 	3000 5275 3150 5275
 Wire Wire Line
@@ -1373,14 +1371,9 @@ Wire Wire Line
 Text Notes 3675 7500 0    50   ~ 0
 GPIO LED
 Wire Wire Line
-	10850 5600 10850 5850
+	10550 5950 10850 5950
 Wire Wire Line
-	10550 5800 10550 5850
-Wire Wire Line
-	10550 5850 10850 5850
-Connection ~ 10850 5850
-Wire Wire Line
-	10850 5850 10850 5950
+	10850 5950 10850 6050
 $Comp
 L Connector_Generic:Conn_01x05 J2
 U 1 1 6261DFA0
@@ -1611,4 +1604,28 @@ Text Notes 10575 7625 0    50   ~ 0
 1.0
 Text Notes 8150 7625 0    50   ~ 0
 4/22/2022
+Text Notes 7425 7500 0    50   ~ 0
+ATMega809 breakout board
+$Comp
+L Device:R_Small R?
+U 1 1 62DCA660
+P 10850 5775
+F 0 "R?" V 10654 5775 50  0000 C CNN
+F 1 "1K0" V 10745 5775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10850 5775 50  0001 C CNN
+F 3 "~" H 10850 5775 50  0001 C CNN
+F 4 "RC0603FR-071KL" H 10850 5775 50  0001 C CNN "MPN"
+F 5 "YAEGO" H 10850 5775 50  0001 C CNN "MANUFACTURER"
+	1    10850 5775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 5800 10550 5950
+Wire Wire Line
+	10850 5875 10850 5950
+Connection ~ 10850 5950
+Wire Wire Line
+	10850 5675 10850 5600
+Wire Wire Line
+	9400 5800 9050 5800
 $EndSCHEMATC
