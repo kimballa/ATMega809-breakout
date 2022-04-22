@@ -25,6 +25,7 @@ F 4 "A" H 6850 4700 50  0001 L BNN "PARTREV"
 F 5 "Microchip" H 6850 4700 50  0001 L BNN "MANUFACTURER"
 F 6 "IPC-7351B" H 6850 4700 50  0001 L BNN "STANDARD"
 F 7 "ATMEGA809-AF" H 6850 4700 50  0001 C CNN "MPN"
+F 8 "Critical component. ATMEGA809-AU also OK. -AFR and -AUR (tape & reel) packaging variants also OK." H 6850 4700 50  0001 C CNN "Description"
 	1    6850 4700
 	1    0    0    -1  
 $EndComp
@@ -68,6 +69,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10050 1400 50
 F 3 "~" H 10050 1400 50  0001 C CNN
 F 4 "Samtec" H 10050 1400 50  0001 C CNN "MANUFACTURER"
 F 5 "TSW-103-07-L-D" H 10050 1400 50  0001 C CNN "MPN"
+F 6 "Male pin THT header 2-row strip (2x3 pins), 0.1\"/2.54mm pitch; 10--15.0µin gold plating" H 10050 1400 50  0001 C CNN "Description"
 	1    10050 1400
 	1    0    0    -1  
 $EndComp
@@ -134,6 +136,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 9900 5400 50  0001 C CNN
 F 3 "~" H 9900 5400 50  0001 C CNN
 F 4 "RC0603FR-07100KL" H 9900 5400 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 9900 5400 50  0001 C CNN "MANUFACTURER"
+F 6 "100K 0603 resistor; +/-1%; 1/10W " H 9900 5400 50  0001 C CNN "Description"
 	1    9900 5400
 	1    0    0    -1  
 $EndComp
@@ -164,6 +167,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 9975 3450 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 9975 3450 50  0001 C CNN
 F 4 "06036C104JAT2A" H 9975 3450 50  0001 C CNN "MPN"
 F 5 "KYOCERA" H 9975 3450 50  0001 C CNN "MANUFACTURER"
+F 6 "100nF 0603 X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm" H 9975 3450 50  0001 C CNN "Description"
 	1    9975 3450
 	-1   0    0    1   
 $EndComp
@@ -205,6 +209,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 10800 3450 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 10800 3450 50  0001 C CNN
 F 4 "06036C104JAT2A" H 10800 3450 50  0001 C CNN "MPN"
 F 5 "KYOCERA" H 10800 3450 50  0001 C CNN "MANUFACTURER"
+F 6 "100nF 0603 X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm" H 10800 3450 50  0001 C CNN "Description"
 	1    10800 3450
 	-1   0    0    1   
 $EndComp
@@ -251,6 +256,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 9950 4450 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 9950 4450 50  0001 C CNN
 F 4 "06036C104JAT2A" H 9950 4450 50  0001 C CNN "MPN"
 F 5 "KYOCERA" H 9950 4450 50  0001 C CNN "MANUFACTURER"
+F 6 "100nF 0603 X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm" H 9950 4450 50  0001 C CNN "Description"
 	1    9950 4450
 	-1   0    0    1   
 $EndComp
@@ -296,6 +302,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 9900 5850 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 9900 5850 50  0001 C CNN
 F 4 "06036C104JAT2A" H 9900 5850 50  0001 C CNN "MPN"
 F 5 "KYOCERA" H 9900 5850 50  0001 C CNN "MANUFACTURER"
+F 6 "100nF 0603 X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm" H 9900 5850 50  0001 C CNN "Description"
 	1    9900 5850
 	-1   0    0    1   
 $EndComp
@@ -325,6 +332,7 @@ F 2 "aaron-imported-parts:PTS820_J25K_SMTR_LFS" H 10750 5800 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1474/pts820.pdf" H 10750 5800 50  0001 C CNN
 F 4 "PTS820 J25K SMTR LFS" H 10750 5600 50  0001 C CNN "MPN"
 F 5 "C&K" H 10750 5600 50  0001 C CNN "MANUFACTURER"
+F 6 "Tactile momentary SPST (normally-open) switch/button; grounded." H 10750 5600 50  0001 C CNN "Description"
 	1    10750 5600
 	1    0    0    -1  
 $EndComp
@@ -359,6 +367,7 @@ F 2 "Diode_SMD:D_0603_1608Metric" H 5025 7500 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C193KRKT-2A.pdf" H 5025 7500 50  0001 C CNN
 F 4 "LTST-C193KRKT-2A" H 5025 7500 50  0001 C CNN "MPN"
 F 5 "Lite-On" H 5025 7500 50  0001 C CNN "MANUFACTURER"
+F 6 "Red chip LED; 0603; Vfwd = 1.8--2.0V, I_test = 2mA; >= 2mcd illumination @ 2mA" H 5025 7500 50  0001 C CNN "Description"
 	1    5025 7500
 	-1   0    0    -1  
 $EndComp
@@ -372,6 +381,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 4675 7150 50  0001 C CNN
 F 3 "~" H 4675 7150 50  0001 C CNN
 F 4 "RC0603FR-07470RL" H 4675 7150 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 4675 7150 50  0001 C CNN "MANUFACTURER"
+F 6 "470R 0603 resistor; +/-1%; 1/10W " H 4675 7150 50  0001 C CNN "Description"
 	1    4675 7150
 	1    0    0    -1  
 $EndComp
@@ -437,6 +447,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 3850 1550 50  0001 C CNN
 F 3 "" H 3850 1550 50  0001 C CNN
 F 4 "CL21A106KOQNNNG" H 3850 1550 50  0001 C CNN "MPN"
 F 5 "Samsung Electro-Mechanics" H 3850 1550 50  0001 C CNN "MANUFACTURER"
+F 6 "10uF 0805 X5R or X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm; V_max >= 10V" H 3850 1550 50  0001 C CNN "Description"
 	1    3850 1550
 	1    0    0    -1  
 $EndComp
@@ -452,6 +463,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 10350 4450 50  0001 C CNN
 F 3 "" H 10350 4450 50  0001 C CNN
 F 4 "CL21A106KOQNNNG" H 10350 4450 50  0001 C CNN "MPN"
 F 5 "Samsung Electro-Mechanics" H 10350 4450 50  0001 C CNN "MANUFACTURER"
+F 6 "10uF 0805 X5R or X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm; V_max >= 10V" H 10350 4450 50  0001 C CNN "Description"
 	1    10350 4450
 	1    0    0    -1  
 $EndComp
@@ -465,6 +477,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 10350 3450 50  0001 C CNN
 F 3 "" H 10350 3450 50  0001 C CNN
 F 4 "CL21A106KOQNNNG" H 10350 3450 50  0001 C CNN "MPN"
 F 5 "Samsung Electro-Mechanics" H 10350 3450 50  0001 C CNN "MANUFACTURER"
+F 6 "10uF 0805 X5R or X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm; V_max >= 10V" H 10350 3450 50  0001 C CNN "Description"
 	1    10350 3450
 	1    0    0    -1  
 $EndComp
@@ -491,6 +504,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 2150 1550 50  0001 C CNN
 F 3 "" H 2150 1550 50  0001 C CNN
 F 4 "CL21A106KOQNNNG" H 2150 1550 50  0001 C CNN "MPN"
 F 5 "Samsung Electro-Mechanics" H 2150 1550 50  0001 C CNN "MANUFACTURER"
+F 6 "10uF 0805 X5R or X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm; V_max >= 10V" H 2150 1550 50  0001 C CNN "Description"
 	1    2150 1550
 	1    0    0    -1  
 $EndComp
@@ -504,6 +518,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 2250 50 
 F 3 "https://drawings-pdf.s3.amazonaws.com/11134.pdf" H 1300 2250 50  0001 C CNN
 F 4 "5-146858-1" H 1300 2250 50  0001 C CNN "MPN"
 F 5 "TE Connectivity AMP Connectors" H 1300 2250 50  0001 C CNN "MANUFACTURER"
+F 6 "Cuttable male pin THT header strip (2 pins), 0.1\"/2.54mm pitch; 10--15.0µin gold plating; 0.230\" mating, 0.10--0.11\" post contact lengths" H 1300 2250 50  0001 C CNN "Description"
 	1    1300 2250
 	1    0    0    -1  
 $EndComp
@@ -533,6 +548,7 @@ F 2 "aaron-imported-parts:USB_Micro-B_Molex_47346-1001" H 1050 3375 50  0001 C C
 F 3 "https://www.molex.com/pdm_docs/sd/473461001_sd.pdf" H 1050 3375 50  0001 C CNN
 F 4 "0473461001" H 900 3425 50  0001 C CNN "MPN"
 F 5 "Molex" H 900 3425 50  0001 C CNN "MANUFACTURER"
+F 6 "USB Micro-B receptacle; SMT; no flanges; board-edge" H 900 3425 50  0001 C CNN "Description"
 	1    900  3425
 	1    0    0    -1  
 $EndComp
@@ -563,6 +579,7 @@ F 2 "aaron-imported-parts:CUHS20S30_H3F" H 1650 3225 50  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=63606&prodName=CUHS20S30" H 1650 3225 50  0001 C CNN
 F 4 "CUHS20S30,H3F" H 1650 3225 50  0001 C CNN "MPN"
 F 5 "Toshiba Semiconductor" H 1650 3225 50  0001 C CNN "MANUFACTURER"
+F 6 "Schottky diode; V_R >= 30V; I_fwd >= 1A; 250mA < V_fwd < 340 mA @ 1A" H 1650 3225 50  0001 C CNN "Description"
 	1    1650 3225
 	-1   0    0    1   
 $EndComp
@@ -582,6 +599,7 @@ F 2 "aaron-imported-parts:CUHS20S30_H3F" H 4100 1350 50  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=63606&prodName=CUHS20S30" H 4100 1350 50  0001 C CNN
 F 4 "CUHS20S30,H3F" H 4100 1350 50  0001 C CNN "MPN"
 F 5 "Toshiba Semiconductor" H 4100 1350 50  0001 C CNN "MANUFACTURER"
+F 6 "Schottky diode; V_R >= 30V; I_fwd >= 1A; 250mA < V_fwd < 340 mA @ 1A" H 4100 1350 50  0001 C CNN "Description"
 	1    4100 1350
 	-1   0    0    1   
 $EndComp
@@ -608,6 +626,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 1400 5500 50  0001 L CIN
 F 3 "https://www.panjit.com.tw/upload/datasheet/PJA3438-AU.pdf" H 1200 5575 50  0001 L CNN
 F 4 "PJA3438-AU_R1_000A1" H 1200 5575 50  0001 C CNN "MPN"
 F 5 "Panjit Int'l." H 1200 5575 50  0001 C CNN "MANUFACTURER"
+F 6 "N-MOSFET; SOT-23; I_D >= 500mA; max V_DS >= 50V; max V_GS +/-20V; 0.4V < V_GS(th) < 2.4V" H 1200 5575 50  0001 C CNN "Description"
 	1    1200 5575
 	0    1    1    0   
 $EndComp
@@ -638,6 +657,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 1850 5900 50  0001 L CIN
 F 3 "https://www.panjit.com.tw/upload/datasheet/PJA3438-AU.pdf" H 1650 5975 50  0001 L CNN
 F 4 "PJA3438-AU_R1_000A1" H 1650 5975 50  0001 C CNN "MPN"
 F 5 "Panjit Int'l." H 1650 5975 50  0001 C CNN "MANUFACTURER"
+F 6 "N-MOSFET; SOT-23; I_D >= 500mA; max V_DS >= 50V; max V_GS +/-20V; 0.4V < V_GS(th) < 2.4V" H 1650 5975 50  0001 C CNN "Description"
 	1    1650 5975
 	0    1    1    0   
 $EndComp
@@ -655,6 +675,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 2400 5900 50  0001 L CIN
 F 3 "https://www.panjit.com.tw/upload/datasheet/PJA3438-AU.pdf" H 2200 5975 50  0001 L CNN
 F 4 "PJA3438-AU_R1_000A1" H 2200 5975 50  0001 C CNN "MPN"
 F 5 "Panjit Int'l." H 2200 5975 50  0001 C CNN "MANUFACTURER"
+F 6 "N-MOSFET; SOT-23; I_D >= 500mA; max V_DS >= 50V; max V_GS +/-20V; 0.4V < V_GS(th) < 2.4V" H 2200 5975 50  0001 C CNN "Description"
 	1    2200 5975
 	0    -1   1    0   
 $EndComp
@@ -670,6 +691,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 2750 5500 50  0001 L CIN
 F 3 "https://www.panjit.com.tw/upload/datasheet/PJA3438-AU.pdf" H 2550 5575 50  0001 L CNN
 F 4 "PJA3438-AU_R1_000A1" H 2550 5575 50  0001 C CNN "MPN"
 F 5 "Panjit Int'l." H 2550 5575 50  0001 C CNN "MANUFACTURER"
+F 6 "N-MOSFET; SOT-23; I_D >= 500mA; max V_DS >= 50V; max V_GS +/-20V; 0.4V < V_GS(th) < 2.4V" H 2550 5575 50  0001 C CNN "Description"
 	1    2550 5575
 	0    -1   1    0   
 $EndComp
@@ -711,6 +733,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 2850 5475 50  0001 C CNN
 F 3 "~" H 2850 5475 50  0001 C CNN
 F 4 "RC0603FR-074K7L" H 2850 5475 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 2850 5475 50  0001 C CNN "MANUFACTURER"
+F 6 "4K7 0603 resistor; +/-1%; 1/10W " H 2850 5475 50  0001 C CNN "Description"
 	1    2850 5475
 	1    0    0    -1  
 $EndComp
@@ -724,6 +747,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 5475 50  0001 C CNN
 F 3 "~" H 3150 5475 50  0001 C CNN
 F 4 "RC0603FR-074K7L" H 3150 5475 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 3150 5475 50  0001 C CNN "MANUFACTURER"
+F 6 "4K7 0603 resistor; +/-1%; 1/10W " H 3150 5475 50  0001 C CNN "Description"
 	1    3150 5475
 	1    0    0    -1  
 $EndComp
@@ -774,6 +798,7 @@ F 2 "Package_TO_SOT_SMD:SOT-223" H 2600 1550 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/ncp1117lp-d.pdf" H 2700 1100 50  0001 C CNN
 F 4 "NCP1117LPSTADT3G" H 2600 1350 50  0001 C CNN "MPN"
 F 5 "onsemi" H 2600 1350 50  0001 C CNN "MANUFACTURER"
+F 6 "Adjustable linear regulator; SOT223 package; dropout voltage 1.3V @ 1A; V_in,max >= 12V" H 2600 1350 50  0001 C CNN "Description"
 	1    2600 1350
 	1    0    0    -1  
 $EndComp
@@ -789,6 +814,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 3350 1550 50  0001 C CNN
 F 3 "~" H 3350 1550 50  0001 C CNN
 F 4 "RC0603FR-07120RL" H 3350 1550 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 3350 1550 50  0001 C CNN "MANUFACTURER"
+F 6 "120R 0603 resistor; +/-1%; 1/10W " H 3350 1550 50  0001 C CNN "Description"
 	1    3350 1550
 	1    0    0    -1  
 $EndComp
@@ -809,6 +835,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 3350 1900 50  0001 C CNN
 F 3 "~" H 3350 1900 50  0001 C CNN
 F 4 "RC0603FR-07390RL" H 3350 1900 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 3350 1900 50  0001 C CNN "MANUFACTURER"
+F 6 "390R 0603 resistor; +/-1%; 1/10W " H 3350 1900 50  0001 C CNN "Description"
 	1    3350 1900
 	1    0    0    -1  
 $EndComp
@@ -833,6 +860,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 2850 1900 50  0001 C CNN
 F 3 "" H 2850 1900 50  0001 C CNN
 F 4 "RC0603FR-07560RL" H 2850 1900 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 2850 1900 50  0001 C CNN "MANUFACTURER"
+F 6 "560R 0603 resistor; +/-1%; 1/10W " H 2850 1900 50  0001 C CNN "Description"
 	1    2850 1900
 	1    0    0    -1  
 $EndComp
@@ -874,6 +902,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 1950 2400 50  0001 C CNN
 F 3 "~" H 1950 2400 50  0001 C CNN
 F 4 "RC0603FR-07100KL" H 1950 2400 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 1950 2400 50  0001 C CNN "MANUFACTURER"
+F 6 "100K 0603 resistor; +/-1%; 1/10W " H 1950 2400 50  0001 C CNN "Description"
 	1    1950 2400
 	1    0    0    1   
 $EndComp
@@ -894,6 +923,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 2950 2175 50  0001 L CIN
 F 3 "https://www.panjit.com.tw/upload/datasheet/PJA3438-AU.pdf" H 2750 2250 50  0001 L CNN
 F 4 "PJA3438-AU_R1_000A1" H 2750 2250 50  0001 C CNN "MPN"
 F 5 "Panjit Int'l." H 2750 2250 50  0001 C CNN "MANUFACTURER"
+F 6 "N-MOSFET; SOT-23; I_D >= 500mA; max V_DS >= 50V; max V_GS +/-20V; 0.4V < V_GS(th) < 2.4V" H 2750 2250 50  0001 C CNN "Description"
 	1    2750 2250
 	1    0    0    -1  
 $EndComp
@@ -912,6 +942,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 2250 2250 50  0001 C CNN
 F 3 "~" H 2250 2250 50  0001 C CNN
 F 4 "RC0603FR-071KL" H 2250 2250 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 2250 2250 50  0001 C CNN "MANUFACTURER"
+F 6 "1K 0603 resistor; +/-1%; 1/10W " H 2250 2250 50  0001 C CNN "Description"
 	1    2250 2250
 	0    -1   1    0   
 $EndComp
@@ -997,6 +1028,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 1950 1550 50  0001 C CNN
 F 3 "~" H 1950 1550 50  0001 C CNN
 F 4 "RC0603FR-07100KL" H 1950 1550 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 1950 1550 50  0001 C CNN "MANUFACTURER"
+F 6 "100K 0603 resistor; +/-1%; 1/10W " H 1950 1550 50  0001 C CNN "Description"
 	1    1950 1550
 	1    0    0    1   
 $EndComp
@@ -1324,6 +1356,7 @@ F 2 "Diode_SMD:D_0603_1608Metric" H 4100 7350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C193KRKT-2A.pdf" H 4100 7350 50  0001 C CNN
 F 4 "LTST-C193KRKT-2A" H 4100 7350 50  0001 C CNN "MPN"
 F 5 "Lite-On" H 4100 7350 50  0001 C CNN "MANUFACTURER"
+F 6 "Red chip LED; 0603; Vfwd = 1.8--2.0V, I_test = 2mA; >= 2mcd illumination @ 2mA" H 4100 7350 50  0001 C CNN "Description"
 	1    4100 7350
 	-1   0    0    -1  
 $EndComp
@@ -1347,6 +1380,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 7025 50  0001 C CNN
 F 3 "~" H 3700 7025 50  0001 C CNN
 F 4 "RC0603FR-07470RL" H 3700 7025 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 3700 7025 50  0001 C CNN "MANUFACTURER"
+F 6 "470R 0603 resistor; +/-1%; 1/10W " H 3700 7025 50  0001 C CNN "Description"
 	1    3700 7025
 	1    0    0    -1  
 $EndComp
@@ -1374,6 +1408,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6300 1375 50 
 F 3 "~" H 6300 1375 50  0001 C CNN
 F 4 "TE Connectivity AMP Connectors" H 6300 1375 50  0001 C CNN "MANUFACTURER"
 F 5 "5-146858-1" H 6300 1375 50  0001 C CNN "MPN"
+F 6 "Cuttable male pin THT header strip (5 pins), 0.1\"/2.54mm pitch; 10--15.0µin gold plating; 0.230\" mating, 0.10--0.11\" post contact lengths" H 6300 1375 50  0001 C CNN "Description"
 	1    6300 1375
 	0    -1   1    0   
 $EndComp
@@ -1391,6 +1426,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 7975 1375 50 
 F 3 "~" H 7975 1375 50  0001 C CNN
 F 4 "TE Connectivity AMP Connectors" H 7975 1375 50  0001 C CNN "MANUFACTURER"
 F 5 "5-146858-1" H 7975 1375 50  0001 C CNN "MPN"
+F 6 "Cuttable male pin THT header strip (12 pins), 0.1\"/2.54mm pitch; 10--15.0µin gold plating; 0.230\" mating, 0.10--0.11\" post contact lengths" H 7975 1375 50  0001 C CNN "Description"
 	1    7975 1375
 	0    -1   1    0   
 $EndComp
@@ -1474,6 +1510,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 7125 1975 50 
 F 3 "~" H 7125 1975 50  0001 C CNN
 F 4 "TE Connectivity AMP Connectors" H 7125 1975 50  0001 C CNN "MANUFACTURER"
 F 5 "5-146858-1" H 7125 1975 50  0001 C CNN "MPN"
+F 6 "Cuttable male pin THT header strip (20 pins), 0.1\"/2.54mm pitch; 10--15.0µin gold plating; 0.230\" mating, 0.10--0.11\" post contact lengths" H 7125 1975 50  0001 C CNN "Description"
 	1    7125 1975
 	0    -1   -1   0   
 $EndComp
@@ -1495,6 +1532,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 2100 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 3650 2100 50  0001 C CNN
 F 4 "06036C104JAT2A" H 3650 2100 50  0001 C CNN "MPN"
 F 5 "KYOCERA" H 3650 2100 50  0001 C CNN "MANUFACTURER"
+F 6 "100nF 0603 X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm" H 3650 2100 50  0001 C CNN "Description"
 	1    3650 2100
 	-1   0    0    1   
 $EndComp
@@ -1604,6 +1642,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 10300 5600 50  0001 C CNN
 F 3 "~" H 10300 5600 50  0001 C CNN
 F 4 "RC0603FR-071KL" H 10300 5600 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 10300 5600 50  0001 C CNN "MANUFACTURER"
+F 6 "1K 0603 resistor; +/-1%; 1/10W " H 10300 5600 50  0001 C CNN "Description"
 	1    10300 5600
 	0    1    -1   0   
 $EndComp
@@ -1619,6 +1658,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 9475 6000 50  0001 C CNN
 F 3 "~" H 9475 6000 50  0001 C CNN
 F 4 "RC0603FR-07470RL" H 9475 6000 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 9475 6000 50  0001 C CNN "MANUFACTURER"
+F 6 "470R 0603 resistor; +/-1%; 1/10W " H 9475 6000 50  0001 C CNN "Description"
 	1    9475 6000
 	1    0    0    -1  
 $EndComp
@@ -1644,6 +1684,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 9525 3575 50  0001 C CNN
 F 3 "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" H 9525 3575 50  0001 C CNN
 F 4 "06036C104JAT2A" H 9525 3575 50  0001 C CNN "MPN"
 F 5 "KYOCERA" H 9525 3575 50  0001 C CNN "MANUFACTURER"
+F 6 "100nF 0603 X7R ceramic capacitor; 20mOhm < ESR < 10 Ohm" H 9525 3575 50  0001 C CNN "Description"
 	1    9525 3575
 	-1   0    0    1   
 $EndComp
@@ -1699,6 +1740,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 11050 5775 50  0001 C CNN
 F 3 "~" H 11050 5775 50  0001 C CNN
 F 4 "RC0603FR-071KL" H 11050 5775 50  0001 C CNN "MPN"
 F 5 "YAEGO" H 11050 5775 50  0001 C CNN "MANUFACTURER"
+F 6 "1K 0603 resistor; +/-1%; 1/10W " H 11050 5775 50  0001 C CNN "Description"
 	1    11050 5775
 	1    0    0    1   
 $EndComp

@@ -1,0 +1,48 @@
+### Module positions - created on 04/21/22 18:28:40 ###
+### Printed by Pcbnew version kicad (5.1.12)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                 Package                            PosX       PosY       Rot  Side
+C1        10u                 C_0805_2012Metric              118.1100   -42.1640    0.0000  top
+C2        100n                C_0603_1608Metric              126.1110   -44.3230  270.0000  top
+C3        10u                 C_0805_2012Metric              123.4440   -42.1640  180.0000  top
+C4        100n                C_0603_1608Metric              149.6060   -54.8640   90.0000  top
+C5        100n                C_0603_1608Metric              160.6550   -46.4820  270.0000  top
+C6        100n                C_0603_1608Metric              161.9250   -51.8160  180.0000  top
+C7        10u                 C_0805_2012Metric              163.8300   -46.3550   90.0000  top
+C8        10u                 C_0805_2012Metric              146.4310   -55.1180  270.0000  top
+C9        100n                C_0603_1608Metric              144.0180   -44.9580   90.0000  top
+C10       100n                C_0603_1608Metric              148.3360   -58.9280   90.0000  top
+D1        CUHS20S30           CUHS20S30_H3F                  110.1090   -55.6260  180.0000  top
+D2        CUHS20S30           CUHS20S30_H3F                  132.3340   -49.7062   90.0000  top
+D3        LTST-C193KRKT-2A    D_0603_1608Metric              157.9880   -63.6270  180.0000  top
+D4        LTST-C193KRKT-2A    D_0603_1608Metric              119.3800   -57.1500  180.0000  top
+FID1      Fiducial            Fiducial_1mm_Mask2mm           169.7990   -35.5600    0.0000  top
+FID2      Fiducial            Fiducial_1mm_Mask2mm           169.7990   -70.7390    0.0000  top
+FID3      Fiducial            Fiducial_1mm_Mask2mm           109.3470   -70.7390    0.0000  top
+FID4      Fiducial            Fiducial_1mm_Mask2mm           146.9390   -42.1640    0.0000  top
+FID5      Fiducial            Fiducial_1mm_Mask2mm           156.7180   -51.9430    0.0000  top
+J1        USB_B_Micro         USB_Micro-B_Molex_47346-1001   103.7590   -48.2600  270.0000  top
+Q1        PJA3438-AU          SOT-23                         116.0780   -62.7380    0.0000  top
+Q2        PJA3438-AU          SOT-23                         130.0480   -62.7380    0.0000  top
+Q3        PJA3438-AU          SOT-23                         134.3660   -62.7380  180.0000  top
+Q4        PJA3438-AU          SOT-23                         120.1420   -62.7380  180.0000  top
+Q5        PJA3438-AU          SOT-23                         114.4270   -52.9590    0.0000  top
+R1        100K                R_0603_1608Metric              113.5380   -50.0380    0.0000  top
+R2        100K                R_0603_1608Metric              107.3150   -41.1480  270.0000  top
+R3        1K0                 R_0603_1608Metric              108.8390   -50.8000  270.0000  top
+R4        560R                R_0603_1608Metric              128.6510   -49.2760  270.0000  top
+R5        4K7                 R_0603_1608Metric              124.2060   -62.6110   90.0000  top
+R6        4K7                 R_0603_1608Metric              138.6840   -62.6110   90.0000  top
+R7        120R                R_0603_1608Metric              128.6510   -43.1800  270.0000  top
+R8        390R                R_0603_1608Metric              129.5400   -46.4820    0.0000  top
+R9        470R                R_0603_1608Metric              157.9880   -60.3250  180.0000  top
+R10       470R                R_0603_1608Metric              115.5700   -57.1500    0.0000  top
+R11       100K                R_0603_1608Metric              161.9250   -54.7370  180.0000  top
+R12       1K0                 R_0603_1608Metric              162.8140   -60.5790   90.0000  top
+R13       1K0                 R_0603_1608Metric              173.1010   -63.8810  180.0000  top
+R14       470R                R_0603_1608Metric              163.5760   -49.4030    0.0000  top
+SW1       RESET               PTS820_J25K_SMTR_LFS           167.5130   -63.8810    0.0000  top
+U1        NCP1117-ADJ_SOT223  SOT-223                        122.8090   -49.7840    0.0000  top
+U2        ATMEGA809-AF        Microchip-TQFP7x7-48           151.8050   -47.0440  270.0000  top
+## End
